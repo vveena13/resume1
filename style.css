@@ -1,0 +1,61 @@
+.main{
+  width:100%;
+  background-color: #999;
+  /* flex box syntax */
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  width:20%;
+  background-color: #c245;
+  border: 5px solid #000;
+  margin:5px
+  /* background-image: url(); */
+}
+.right{
+  width:90%;
+  background-color: #666;
+  border: 5px solid #000;
+  margin:5px;
+  padding: 6px;
+}
+#name{
+  color:green;
+}
+.left img{
+  border-radius: 50px;
+  border: 4px solid #666;
+  width:100px;
+  height:100px;
+}
+/* media queries(1024,1280,768,480)
+1280-1024:Desktop
+1024-768:Tablet(LandScape)
+768-480:Tablet
+480:mobile landscape (or) smaller device
+ */
+@media only screen and (min-width:1024px) and (max-width:1280px){
+  .main{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+
+  }
+  .left{
+    width:25%;
+    background-color: #985;
+  }
+.right{
+  width:75%;
+  background-color: #985;
+}
+}
+@media only screen and (min-width:1024) and (max-width:1280){
+
+}
+@media only screen and (min-width:1024) and (max-width:1280){
+
+}
+@media only screen and (min-width:1024) and (max-width:1280){
+
+}
